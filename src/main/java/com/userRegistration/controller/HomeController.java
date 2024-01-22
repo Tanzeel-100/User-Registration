@@ -2,13 +2,16 @@ package com.userRegistration.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.view.RedirectView;
 
 @Controller
 public class HomeController {
     @RequestMapping("/")
-    public String base() {
+    public RedirectView base() {
         System.out.println("This is base page");
-        return "base";
+        RedirectView redirectView = new RedirectView();
+        redirectView.setUrl("form");
+        return redirectView;
     }
 
     @RequestMapping("/home")
