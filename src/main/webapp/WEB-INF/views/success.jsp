@@ -17,6 +17,6 @@
 
 <%--With model user--%>
 <h1>Your user-name is ${user.userName}</h1>
-<h2>Your email is ${user.email}</h2>
+<h2>Your email is ${user.userEmail}</h2>
 </body>
 </html>

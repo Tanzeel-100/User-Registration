@@ -185,12 +185,12 @@
                 <!-- Input box for email -->
                 <div class="input-box">
                     <span class="details">Email</span>
-                    <input name="email" type="text" placeholder="Enter your email" required>
+                    <input name="userEmail" type="text" placeholder="Enter your email" required>
                 </div>
                 <!-- Input box for password -->
                 <div class="input-box">
                     <span class="details">Password</span>
-                    <input name="password" type="text" placeholder="Enter your password" required>
+                    <input name="userPassword" type="text" placeholder="Enter your password" required>
                 </div>
             </div>
             <!-- Button container -->
